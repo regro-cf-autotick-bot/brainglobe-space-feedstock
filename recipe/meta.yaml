@@ -1,14 +1,14 @@
 {% set python_min = "3.10" %}
 {% set name = "brainglobe-space" %}
-{% set version = "1.0.3" %}
+{% set version = "1.0.4" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/brainglobe_space-{{ version }}.tar.gz
-  sha256: 7c182957291d27234f1bbd62f5de9b3c32d9e8842b71943795ea62e35d19a54f
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/brainglobe_space-{{ version }}.tar.gz
+  sha256: a4c0adad1dd28db483e02e9d2c4540cacfa21310deb78a088a2c62eae14473ad
 
 build:
   noarch: python
